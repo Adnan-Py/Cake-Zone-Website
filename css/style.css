@@ -1,0 +1,248 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.header {
+    background-color: #faf3eb;
+    height: 90px;
+}
+
+.email_sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    color: #E88F2A;
+    font-size: 40px;
+}
+
+.cakezone {
+    background-color: #E88F2A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text_middle {
+    display: flex;
+}
+
+.call {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* navbar section */
+.nav-item {
+    padding: 18px 4px;
+}
+
+.navbar-dark .nav-item .nav-link {
+    font-size: 18px;
+    color: #fff;
+}
+
+.navbar-dark .nav-item .nav-link:hover {
+    color: #E88F2A;
+    transition: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.4s;
+}
+
+/* bg section  */
+#bg {
+    background: url('../img/hero.jpg') top left no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.s_crisp {
+    font-family: 'Pacifico', cursive;
+    color: #E88F2A !important;
+}
+
+.sec_bg .fa-circle-play {
+    font-size: 70px;
+}
+
+.sec_bg .read_more {
+    background-color: #E88F2A !important;
+    outline: none;
+    border-radius: 0px;
+}
+
+.sec_bg a {
+    text-decoration: none;
+    color: #fff !important;
+    outline: none;
+}
+
+/* about section  */
+.border-inner {
+    position: relative;
+}
+
+.border-inner::before {
+    position: absolute;
+    content: "";
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+    background: none;
+    border: 1px solid #fff;
+    z-index: 1;
+}
+
+.bg-primary {
+    background-color: #E88F2A !important;
+}
+
+.section-title::before {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 10px;
+    bottom: 0;
+    margin-left: -30px;
+    background: #E88F2A;
+}
+
+.section-title::after {
+    position: absolute;
+    content: "";
+    width: 180px;
+    height: 2px;
+    bottom: 4px;
+    margin-left: -90px;
+    background: #E88F2A;
+}
+
+.same {
+    color: #E88F2A !important;
+}
+
+.bg-img {
+    background: linear-gradient(rgba(43, 40, 37, .5), rgba(43, 40, 37, .5)), url(../img/bg.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+
+.line::before {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 10px;
+    left: 50%;
+    bottom: 0;
+    margin-left: -30px;
+    background: #E88F2A;
+}
+
+.line::after {
+    position: absolute;
+    content: "";
+    width: 180px;
+    height: 2px;
+    left: 50%;
+    bottom: 4px;
+    margin-left: -90px;
+    background: #E88F2A;
+}
+
+.review {
+    background-color: #faf3eb;
+}
+
+.px-4 {
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+}
+
+.black {
+    position: relative;
+}
+
+.year {
+    position: absolute;
+}
+.year h5
+{
+    font-size: 2vw;
+}
+.nav-link {
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+#pills-home-tab,
+#pills-wedding-tab,
+#pills-custom-tab {
+    background-color: #E88F2A;
+    border-radius: 0px;
+}
+
+#three .container-fluid {
+    background-image: url(../img/bg.jpg);
+    /* background-size: cover; */
+}
+
+.service::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    /* height: calc(100% - 45px); */
+    height: 90%;
+    top: 135px;
+    left: 0;
+    background: linear-gradient(rgba(43, 40, 37, .9), rgba(43, 40, 37, .9)), url(../img/service.jpg);
+    background-size: cover;
+    z-index: -1;
+}
+
+.bg-offer {
+    background: linear-gradient(rgba(43, 40, 37, .9), rgba(43, 40, 37, .9)), url(../img/offer.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.btn-primary {
+    background-color: #E88F2A;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#footer::before {
+    background-image: url(../img/bg.jpg);
+    content: "";
+    position: absolute;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 50%;
+    z-index: -1;
+    padding: 10px 10px;
+}
+
+@media (max-width: 592px)
+{
+    .header
+    {
+        display: none;
+    }
+}
